@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_Managers_Report_View" targetNamespace="http://tempuri.org/DataSet_Managers_Report_View.xsd" xmlns:mstns="http://tempuri.org/DataSet_Managers_Report_View.xsd" xmlns="http://tempuri.org/DataSet_Managers_Report_View.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BingoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BingoConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Bingo_3._0.Properties.Settings.GlobalReference.Default.BingoConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MANAGERS_REPORTTableAdapter" GeneratorDataComponentClassName="MANAGERS_REPORTTableAdapter" Name="MANAGERS_REPORT" UserDataComponentName="MANAGERS_REPORTTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BingoConnectionString (Settings)" DbObjectName="Bingo.dbo.MANAGERS_REPORT" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SessionDate, SessionTime, CardPrice, BingoCaller, Supervisor, ShiftManager, GI, CashOnHand, PrizesPaidOut, Totaljackpts, Win, Cashier FROM dbo.MANAGERS_REPORT</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SessionDate" DataSetColumn="SessionDate" />
+              <Mapping SourceColumn="SessionTime" DataSetColumn="SessionTime" />
+              <Mapping SourceColumn="CardPrice" DataSetColumn="CardPrice" />
+              <Mapping SourceColumn="BingoCaller" DataSetColumn="BingoCaller" />
+              <Mapping SourceColumn="Supervisor" DataSetColumn="Supervisor" />
+              <Mapping SourceColumn="ShiftManager" DataSetColumn="ShiftManager" />
+              <Mapping SourceColumn="GI" DataSetColumn="GI" />
+              <Mapping SourceColumn="CashOnHand" DataSetColumn="CashOnHand" />
+              <Mapping SourceColumn="PrizesPaidOut" DataSetColumn="PrizesPaidOut" />
+              <Mapping SourceColumn="Totaljackpts" DataSetColumn="Totaljackpts" />
+              <Mapping SourceColumn="Win" DataSetColumn="Win" />
+              <Mapping SourceColumn="Cashier" DataSetColumn="Cashier" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_Managers_Report_View" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_Managers_Report_View" msprop:Generator_UserDSName="DataSet_Managers_Report_View">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MANAGERS_REPORT" msprop:Generator_TableClassName="MANAGERS_REPORTDataTable" msprop:Generator_TableVarName="tableMANAGERS_REPORT" msprop:Generator_TablePropName="MANAGERS_REPORT" msprop:Generator_RowDeletingName="MANAGERS_REPORTRowDeleting" msprop:Generator_RowChangingName="MANAGERS_REPORTRowChanging" msprop:Generator_RowEvHandlerName="MANAGERS_REPORTRowChangeEventHandler" msprop:Generator_RowDeletedName="MANAGERS_REPORTRowDeleted" msprop:Generator_UserTableName="MANAGERS_REPORT" msprop:Generator_RowChangedName="MANAGERS_REPORTRowChanged" msprop:Generator_RowEvArgName="MANAGERS_REPORTRowChangeEvent" msprop:Generator_RowClassName="MANAGERS_REPORTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SessionDate" msprop:Generator_ColumnVarNameInTable="columnSessionDate" msprop:Generator_ColumnPropNameInRow="SessionDate" msprop:Generator_ColumnPropNameInTable="SessionDateColumn" msprop:Generator_UserColumnName="SessionDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SessionTime" msprop:Generator_ColumnVarNameInTable="columnSessionTime" msprop:Generator_ColumnPropNameInRow="SessionTime" msprop:Generator_ColumnPropNameInTable="SessionTimeColumn" msprop:Generator_UserColumnName="SessionTime" type="xs:duration" minOccurs="0" />
+              <xs:element name="CardPrice" msprop:Generator_ColumnVarNameInTable="columnCardPrice" msprop:Generator_ColumnPropNameInRow="CardPrice" msprop:Generator_ColumnPropNameInTable="CardPriceColumn" msprop:Generator_UserColumnName="CardPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BingoCaller" msprop:Generator_ColumnVarNameInTable="columnBingoCaller" msprop:Generator_ColumnPropNameInRow="BingoCaller" msprop:Generator_ColumnPropNameInTable="BingoCallerColumn" msprop:Generator_UserColumnName="BingoCaller" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Supervisor" msprop:Generator_ColumnVarNameInTable="columnSupervisor" msprop:Generator_ColumnPropNameInRow="Supervisor" msprop:Generator_ColumnPropNameInTable="SupervisorColumn" msprop:Generator_UserColumnName="Supervisor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShiftManager" msprop:Generator_ColumnVarNameInTable="columnShiftManager" msprop:Generator_ColumnPropNameInRow="ShiftManager" msprop:Generator_ColumnPropNameInTable="ShiftManagerColumn" msprop:Generator_UserColumnName="ShiftManager" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GI" msprop:Generator_ColumnVarNameInTable="columnGI" msprop:Generator_ColumnPropNameInRow="GI" msprop:Generator_ColumnPropNameInTable="GIColumn" msprop:Generator_UserColumnName="GI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CashOnHand" msprop:Generator_ColumnVarNameInTable="columnCashOnHand" msprop:Generator_ColumnPropNameInRow="CashOnHand" msprop:Generator_ColumnPropNameInTable="CashOnHandColumn" msprop:Generator_UserColumnName="CashOnHand" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PrizesPaidOut" msprop:Generator_ColumnVarNameInTable="columnPrizesPaidOut" msprop:Generator_ColumnPropNameInRow="PrizesPaidOut" msprop:Generator_ColumnPropNameInTable="PrizesPaidOutColumn" msprop:Generator_UserColumnName="PrizesPaidOut" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Totaljackpts" msprop:Generator_ColumnVarNameInTable="columnTotaljackpts" msprop:Generator_ColumnPropNameInRow="Totaljackpts" msprop:Generator_ColumnPropNameInTable="TotaljackptsColumn" msprop:Generator_UserColumnName="Totaljackpts" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Win" msprop:Generator_ColumnVarNameInTable="columnWin" msprop:Generator_ColumnPropNameInRow="Win" msprop:Generator_ColumnPropNameInTable="WinColumn" msprop:Generator_UserColumnName="Win" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cashier" msprop:Generator_ColumnVarNameInTable="columnCashier" msprop:Generator_ColumnPropNameInRow="Cashier" msprop:Generator_ColumnPropNameInTable="CashierColumn" msprop:Generator_UserColumnName="Cashier" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,64 @@
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\Bingo 3.0.exe.config
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\Bingo 3.0.exe
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\Bingo 3.0.pdb
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Login.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Properties.Resources.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo 3.0.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo 3.0.exe
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo 3.0.pdb
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Sales_Dashboard.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Admin_Dashboard.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Manager_Dashboard.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Choose_Bingo_Session.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Bingo_Team.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Bingo_Sales.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Close_Bingo_Session.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Reprint_Validator.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.Shared.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\FlashControlV71.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\ShockwaveFlashObjects.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\bin\Debug\stdole.dll
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Sales_Receipt.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Bingo_Caller_Closing.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Reprint_By_Validator.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Reprint_By_Card_Number.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Reprint_By_Customer_Name.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Validate_Winning.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Void_Sales.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Choose_Bingo_Session_Manager.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Bingo_Team_Manager.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Reports.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.User_Controls.Manager_Report.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Manager_Report.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.User_Controls.Session_Sales_Data.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Session_Sales_Report.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.User_Controls.Range_Sales_Data.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Range_Sales_Data.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Bingo_Caller_Closing_Manager.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.User_Controls.Bingo_Caller_Closing.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Void_Sales_Report.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.User_Controls.Void_Sales_Report.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Win_Loss_By_Period.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.User_Controls.Win_Loss_By_Period.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Sales_by_Customer.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.User_Controls.Sales_By_Customer.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.Manage_User_Accounts.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.SplashScreen.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Void_Sales_Receipt.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo_3._0.To_Reports.Void_By_Card.resources
+C:\Program Files (x86)\Bingo 3.0\Bingo 3.0\Bingo 3.0\obj\Debug\Bingo 3.0.csprojResolveAssemblyReference.cache

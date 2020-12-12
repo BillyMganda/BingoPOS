@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D70CF8F-9235-4F1B-86AF-E81B22849B4B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bingo_3._0</RootNamespace>
+    <AssemblyName>Bingo 3.0</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bingo_icon___copy_ppl_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Dashboard.Designer.cs">
+      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bingo_Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bingo_Sales.Designer.cs">
+      <DependentUpon>Bingo_Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bingo_Team.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bingo_Team.Designer.cs">
+      <DependentUpon>Bingo_Team.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bingo_Team_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bingo_Team_Manager.Designer.cs">
+      <DependentUpon>Bingo_Team_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Choose_Bingo_Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose_Bingo_Session.Designer.cs">
+      <DependentUpon>Choose_Bingo_Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Choose_Bingo_Session_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose_Bingo_Session_Manager.Designer.cs">
+      <DependentUpon>Choose_Bingo_Session_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Close_Bingo_Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Close_Bingo_Session.Designer.cs">
+      <DependentUpon>Close_Bingo_Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal_Reports\BingoCallerClosingReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BingoCallerClosingReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_Reports\Managers_Report.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Managers_Report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_Reports\Range_Sales_Data.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Range_Sales_Data.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_Reports\Reprint_By_Validator.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reprint_By_Validator.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_Reports\Sales_By_Customer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sales_By_Customer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_Reports\Sales_Receipt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sales_Receipt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_Reports\Session_Sales_Report.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Session_Sales_Report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_Reports\Void_Sales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Void_Sales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_Reports\Void_Sales_Receipt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Void_Sales_Receipt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal_Reports\Win_Loss_By_Period.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Win_Loss_By_Period.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datasets\DataSet_Bingo_Caller_Closing_Table.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Bingo_Caller_Closing_Table.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DataSet_Managers_Report_View.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Managers_Report_View.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DataSet_Sales_Table.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Sales_Table.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DataSet_Void_Sales_Table.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Void_Sales_Table.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager_Dashboard.Designer.cs">
+      <DependentUpon>Manager_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_User_Accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_User_Accounts.Designer.cs">
+      <DependentUpon>Manage_User_Accounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reprint_Validator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reprint_Validator.Designer.cs">
+      <DependentUpon>Reprint_Validator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales_Dashboard.Designer.cs">
+      <DependentUpon>Sales_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Bingo_Caller_Closing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Bingo_Caller_Closing.Designer.cs">
+      <DependentUpon>Bingo_Caller_Closing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Bingo_Caller_Closing_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Bingo_Caller_Closing_Manager.Designer.cs">
+      <DependentUpon>Bingo_Caller_Closing_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Manager_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Manager_Report.Designer.cs">
+      <DependentUpon>Manager_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Range_Sales_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Range_Sales_Data.Designer.cs">
+      <DependentUpon>Range_Sales_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Reprint_By_Card_Number.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Reprint_By_Card_Number.Designer.cs">
+      <DependentUpon>Reprint_By_Card_Number.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Reprint_By_Customer_Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Reprint_By_Customer_Name.Designer.cs">
+      <DependentUpon>Reprint_By_Customer_Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Reprint_By_Validator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Reprint_By_Validator.Designer.cs">
+      <DependentUpon>Reprint_By_Validator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Sales_by_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Sales_by_Customer.Designer.cs">
+      <DependentUpon>Sales_by_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Sales_Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Sales_Receipt.Designer.cs">
+      <DependentUpon>Sales_Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Session_Sales_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Session_Sales_Report.Designer.cs">
+      <DependentUpon>Session_Sales_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Void_By_Card.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Void_By_Card.Designer.cs">
+      <DependentUpon>Void_By_Card.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Void_Sales_Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Void_Sales_Receipt.Designer.cs">
+      <DependentUpon>Void_Sales_Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Void_Sales_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Void_Sales_Report.Designer.cs">
+      <DependentUpon>Void_Sales_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Reports\Win_Loss_By_Period.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Reports\Win_Loss_By_Period.Designer.cs">
+      <DependentUpon>Win_Loss_By_Period.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\Bingo_Caller_Closing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\Bingo_Caller_Closing.Designer.cs">
+      <DependentUpon>Bingo_Caller_Closing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\Manager_Report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\Manager_Report.Designer.cs">
+      <DependentUpon>Manager_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\Range_Sales_Data.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\Range_Sales_Data.Designer.cs">
+      <DependentUpon>Range_Sales_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\Sales_By_Customer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\Sales_By_Customer.Designer.cs">
+      <DependentUpon>Sales_By_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\Session_Sales_Data.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\Session_Sales_Data.Designer.cs">
+      <DependentUpon>Session_Sales_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\Void_Sales_Report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\Void_Sales_Report.Designer.cs">
+      <DependentUpon>Void_Sales_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\Win_Loss_By_Period.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\Win_Loss_By_Period.Designer.cs">
+      <DependentUpon>Win_Loss_By_Period.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validate_Winning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validate_Winning.Designer.cs">
+      <DependentUpon>Validate_Winning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Void_Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Void_Sales.Designer.cs">
+      <DependentUpon>Void_Sales.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_Dashboard.resx">
+      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bingo_Sales.resx">
+      <DependentUpon>Bingo_Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bingo_Team.resx">
+      <DependentUpon>Bingo_Team.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bingo_Team_Manager.resx">
+      <DependentUpon>Bingo_Team_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Bingo_Session.resx">
+      <DependentUpon>Choose_Bingo_Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Bingo_Session_Manager.resx">
+      <DependentUpon>Choose_Bingo_Session_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Close_Bingo_Session.resx">
+      <DependentUpon>Close_Bingo_Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\BingoCallerClosingReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BingoCallerClosingReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\Managers_Report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Managers_Report.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\Range_Sales_Data.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Range_Sales_Data.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\Reprint_By_Validator.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Reprint_By_Validator.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\Sales_By_Customer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Sales_By_Customer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\Sales_Receipt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Sales_Receipt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\Session_Sales_Report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Session_Sales_Report.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\Void_Sales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Void_Sales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\Void_Sales_Receipt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Void_Sales_Receipt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal_Reports\Win_Loss_By_Period.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Win_Loss_By_Period.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager_Dashboard.resx">
+      <DependentUpon>Manager_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_User_Accounts.resx">
+      <DependentUpon>Manage_User_Accounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reprint_Validator.resx">
+      <DependentUpon>Reprint_Validator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales_Dashboard.resx">
+      <DependentUpon>Sales_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Bingo_Caller_Closing.resx">
+      <DependentUpon>Bingo_Caller_Closing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Bingo_Caller_Closing_Manager.resx">
+      <DependentUpon>Bingo_Caller_Closing_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Manager_Report.resx">
+      <DependentUpon>Manager_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Range_Sales_Data.resx">
+      <DependentUpon>Range_Sales_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Reprint_By_Card_Number.resx">
+      <DependentUpon>Reprint_By_Card_Number.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Reprint_By_Customer_Name.resx">
+      <DependentUpon>Reprint_By_Customer_Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Reprint_By_Validator.resx">
+      <DependentUpon>Reprint_By_Validator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Sales_by_Customer.resx">
+      <DependentUpon>Sales_by_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Sales_Receipt.resx">
+      <DependentUpon>Sales_Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Session_Sales_Report.resx">
+      <DependentUpon>Session_Sales_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Void_By_Card.resx">
+      <DependentUpon>Void_By_Card.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Void_Sales_Receipt.resx">
+      <DependentUpon>Void_Sales_Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Void_Sales_Report.resx">
+      <DependentUpon>Void_Sales_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Reports\Win_Loss_By_Period.resx">
+      <DependentUpon>Win_Loss_By_Period.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\Bingo_Caller_Closing.resx">
+      <DependentUpon>Bingo_Caller_Closing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\Manager_Report.resx">
+      <DependentUpon>Manager_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\Range_Sales_Data.resx">
+      <DependentUpon>Range_Sales_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\Sales_By_Customer.resx">
+      <DependentUpon>Sales_By_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\Session_Sales_Data.resx">
+      <DependentUpon>Session_Sales_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\Void_Sales_Report.resx">
+      <DependentUpon>Void_Sales_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\Win_Loss_By_Period.resx">
+      <DependentUpon>Win_Loss_By_Period.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Validate_Winning.resx">
+      <DependentUpon>Validate_Winning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Void_Sales.resx">
+      <DependentUpon>Void_Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Datasets\DataSet_Bingo_Caller_Closing_Table.xsc">
+      <DependentUpon>DataSet_Bingo_Caller_Closing_Table.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DataSet_Bingo_Caller_Closing_Table.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Bingo_Caller_Closing_Table.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\DataSet_Bingo_Caller_Closing_Table.xss">
+      <DependentUpon>DataSet_Bingo_Caller_Closing_Table.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DataSet_Managers_Report_View.xsc">
+      <DependentUpon>DataSet_Managers_Report_View.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DataSet_Managers_Report_View.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Managers_Report_View.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\DataSet_Managers_Report_View.xss">
+      <DependentUpon>DataSet_Managers_Report_View.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DataSet_Sales_Table.xsc">
+      <DependentUpon>DataSet_Sales_Table.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DataSet_Sales_Table.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Sales_Table.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\DataSet_Sales_Table.xss">
+      <DependentUpon>DataSet_Sales_Table.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DataSet_Void_Sales_Table.xsc">
+      <DependentUpon>DataSet_Void_Sales_Table.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DataSet_Void_Sales_Table.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Void_Sales_Table.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\DataSet_Void_Sales_Table.xss">
+      <DependentUpon>DataSet_Void_Sales_Table.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bingo_icon___copy_ppl_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
